@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+
+@font-face {
+	font-family: 'Conv_Gotham-Book';
+  	src: 	url(font/Gotham-Book.eot);
+	src: 	url(font/Gotham-Book.woff) format('woff'), 
+			url(font/Gotham-Book.ttf) format('truetype'), 
+			url(font/Gotham-Book.svg) format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+body {
+	background: #5A5099;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+	font-size: 16px;
+	font-family:'Conv_Gotham-Book',Sans-Serif;
+
+	}
+section,
+header {
+	display: block; 
+	/*border: 1px solid yellow; */
+	width: 100%;
+	}
+header {
+	background: url(../img/purpe_bg_pam.jpg) center fixed #5A5099;
+	height: 37em;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+}
+
+article,
+nav.menu {
+	display: block; 
+	/*border: 1px solid yellow; */
+	width: 100%;
+	margin: auto;
+	max-width: 62.5em;
+}
+
+nav.menu {
+	height: 4em;
+	border-bottom: 1px solid #fff;
+
+}
+
+	.menu ul {
+		margin: auto;
+		width: 60%;
+		height: 4em;
+		display: -webkit-flex;
+		display: -webkit-box;
+		display: -moz-flex;
+		display: -ms-flexbox;
+		display: flex;
+
+		-webkit-flex-flow: row nowrap;
+		-webkit-justify-content:space-around;
+		-webkit-align-items: center;
+	}
+	.menu li {
+		padding: 0.5em;
+	}
+	.menu li a {
+		text-decoration: none;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 0.8em;
+	}
+
+/* Logo ///////////// */
+
+.logo {	width: 100%; max-width: 62.5em; margin: auto;}
+
+.logo h1{
+	font-size: 7em;
+	font-family:'Conv_Gotham-Book',Sans-Serif;
+	color: #fff;
+	margin-top: 1.2em;
+	display: block;
+	text-align: center;
+	font-weight: normal;
+
+	}
+
+	.logo h1+h2{
+		padding-top: 0.5em;
+		font-size: 2em;
+		font-family:'Conv_Gotham-Book',Sans-Serif;
+		/*font-family: 'Josefin Slab', serif;*/
+		display: block;
+		text-align: center;
+		color: #fff;
+		}
+/*
+#5A5099 violeta azulado
+#78375F purputa
+#D84B5B rosado*/
