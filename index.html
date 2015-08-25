@@ -6,59 +6,154 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-2.1.4.js"></script>
+<script src="js/radial_progress.js"></script>
+
 </head>
 <body>
 <header>
 
 		<nav class="menu">
 			<ul>
-				<li><a href="">Home</a></li>
-				<li><a href="">About Me</a></li>
-				<li><a href="">Skills</a></li>
-				<li><a href="">Works</a></li>
-				<li><a href="">Contact</a></li>
+				<li><a href="index.html#home">Home</a></li>
+				<li><a href="index.html#aboutme">About Me</a></li>
+				<li><a href="index.html#skills">Skills</a></li>
+				<li><a href="index.html#works">Works</a></li>
+				<li><a href="index.html#contact">Contact</a></li>
 			</ul>
 		</nav>
 		<div class="logo">
-			<h1>PAM | B</h1>
-			<h2>GRAPHIC DESIGN & <br>FRONTEND DEVELOPER</h2>
+			<h1>.PAM.</h1>
+			<h2>GRAPHIC DESIGN<br>& FRONTEND</h2>
 		</div>
 </header>
-<section>
-	<article class="">
+<section class="color--white" id="aboutme">
+	<h2 class="title">Acerca de Mi</h2>
+	<article class="flex">
+		<div class="me"></div>
+		<div class="aboutme">
+			<p>Hola!!</p>
+			<p>Mi nombre es Pam, soy diseñadora gráfica, y hace muy poco tiempo decidí capacitarme en el desarrollo web, área que me pareció fantástica desde el primer día y área en la que quiero desarrollarme constantemente, siendo un sector que nunca deja de avanzar y me lleva a superarme día a día.</p>
+		</div>
 		
-		<h2>about me</h2>
-	</article>
-	
-
-</section>
-<section>
-	<article class="">
-		<h2>skills</h2>
-		<div class="skills--options"></div>
-		<div class="skills--options"></div>
-		<div class="skills--options"></div>
-		<div class="skills--options"></div>
-		<div class="skills--options"></div>
-	</article>
-	
-
-</section>
-<section>
-	<article class="">
 		
-		<h2>works</h2>
+	
 	</article>
 	
 
 </section>
-<section> 
+<section class="color--pink"  id="skills">
+	<h2 class="title">Habilidades</h2>
+	<article class="skill">
+		 <ul class="List">
+			<li class="List-item">
+				<div class="ProgressBar ProgressBar--animate50" data-progress="50">
+					<svg class="ProgressBar-contentCircle"  viewBox="0 0 200 200">
+		      	<circle transform="rotate(-90, 100, 100)" class="ProgressBar-background" cx="100" cy="100" r="95" />
+		      	<circle transform="rotate(-90, 100, 100)" class="ProgressBar-circle" 
+		      	cx="100" cy="100" r="95" />
+		      	<span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
+					</svg>
+				</div>
+				<div class="List-skill-text">
+						<h3>HTML5</h3>
+					</div>
+		  </li>
+		  <li class="List-item">
+				<div class="ProgressBar ProgressBar--animate80" data-progress="80">
+					<svg class="ProgressBar-contentCircle"  viewBox="0 0 200 200">
+		      	<circle transform="rotate(-90, 100, 100)" class="ProgressBar-background" cx="100" cy="100" r="95" />
+		      	<circle transform="rotate(-90, 100, 100)" class="ProgressBar-circle" 
+		      	cx="100" cy="100" r="95" />
+		      	<span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
+					</svg>
+				</div>
+				<div class="List-skill-text">
+						<h3>CSS3</h3>
+					</div>
+		  </li>
+
+		  <li class="List-item">
+				<div class="ProgressBar ProgressBar--animate90" data-progress="90">
+					<svg class="ProgressBar-contentCircle"  viewBox="0 0 200 200">
+		      	<circle transform="rotate(-90, 100, 100)" class="ProgressBar-background" cx="100" cy="100" r="95" />
+		      	<circle transform="rotate(-90, 100, 100)" class="ProgressBar-circle" 
+		      	cx="100" cy="100" r="95" />
+		      	<span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
+					</svg>
+				</div>
+				<div class="List-skill-text">
+						<h3>RWD</h3>
+					</div>
+		  </li>
+
+			<li class="List-item">
+					<div class="ProgressBar ProgressBar--animate40" data-progress="40">
+						<svg class="ProgressBar-contentCircle"  viewBox="0 0 200 200">
+			      	<circle transform="rotate(-90, 100, 100)" class="ProgressBar-background" cx="100" cy="100" r="95" />
+			      	<circle transform="rotate(-90, 100, 100)" class="ProgressBar-circle" 
+			      	cx="100" cy="100" r="95" />
+			      	<span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
+						</svg>
+					</div>
+					<div class="List-skill-text">
+						<h3>JQUERY</h3>
+					</div>
+			  </li>
+			  <li class="List-item">
+					<div class="ProgressBar ProgressBar--animate40" data-progress="40">
+						<svg class="ProgressBar-contentCircle"  viewBox="0 0 200 200">
+				      	<circle transform="rotate(-90, 100, 100)" class="ProgressBar-background" cx="100" cy="100" r="95" />
+				      	<circle transform="rotate(-90, 100, 100)" class="ProgressBar-circle" 
+				      	cx="100" cy="100" r="95" />
+				      	<span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
+						</svg>
+					</div>
+					<div class="List-skill-text">
+						<h3>BOOTSTRAP</h3>
+					</div>
+			  </li>
+
+	
+		</ul>
+<!-- fin -->
+	
+	</article>
+	
+
+</section>
+<section class="color--sky" id="works">
+	<h2 class="title">Algunos Trabajos</h2>
+	<article class="work">
+		<div class="work__img">
+				<img src="img/work/web_0.jpg" alt="">
+		</div>
+		<div class="work__img"><img src="img/work/caliri.jpg" alt=""></div>
+		<div class="work__img"><img src="img/work/web_2.jpg" alt=""></div>
+		<div class="work__img"><img src="img/work/rrhh.jpg" alt=""></div>
+		<div class="work__img"><img src="img/work/2.jpg" alt=""></div>
+		<div class="work__img"><img src="img/work/web_5.jpg" alt=""></div>
+		<div class="work__img"><img src="img/work/web_1.jpg" alt=""></div>
+		<div class="work__img"><img src="img/work/8.jpg" alt=""></div>
+		<div class="work__img"><img src="img/work/4.jpg" alt=""></div>
+		<div class="work__img"><img src="img/work/web_4.jpg" alt=""></div>
+		<div class="work__img"><img src="img/work/1.jpg" alt=""></div>
+		<div class="work__img"><img src="img/work/web_3.jpg" alt=""></div>
+		
+		
+	</article>
+	
+
+</section>
+<section id="contact"> 
 	<article class="">
-		<h2>contact</h2>
+		<h2 class="title">contact</h2>
 
 	</article>
 	
 
 </section>
+
+
 </body>
 </html>
