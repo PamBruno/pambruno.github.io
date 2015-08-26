@@ -53,6 +53,16 @@ header {
 	background-size: cover;
 }
 
+footer {
+	background: url(../img/bg_img.jpg) center fixed #5A5099;
+	height: 14em;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+}
+
+
 article,
 nav {
 	display: block; 
@@ -224,6 +234,11 @@ nav {
 	color: #fff;
 }
 
+.text--white p {
+	color: #fff;
+	text-align: center;
+}
+
 .color--pink {
 	background: #ff3f79;
 	min-height: 12.5em;
@@ -268,18 +283,8 @@ nav {
 	color: #fff;
 	width: 31em;
 	margin: auto;
+	padding-bottom: 6em;
 }
-
-footer {
-	width: 100%;
-	height:15em;
-	background: #fff
-
-}
-/*
-#5A5099 violeta azulado
-#78375F purputa
-#D84B5B rosado*/
 
 /*principio */
 
