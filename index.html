@@ -6,20 +6,22 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-		<script src="js/jquery-2.1.4.js"></script>
-<script src="js/radial_progress.js"></script>
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/radial_progress.js"></script>
+
+	<script src="js/header.js"></script>
 
 </head>
 <body>
-<header>
+<header id="home">
 
-		<nav class="menu">
+		<nav>
 			<ul>
-				<li><a href="index.html#home">Home</a></li>
-				<li><a href="index.html#aboutme">About Me</a></li>
-				<li><a href="index.html#skills">Skills</a></li>
-				<li><a href="index.html#works">Works</a></li>
-				<li><a href="index.html#contact">Contact</a></li>
+				<li><a href="#home">Inicio</a></li>
+				<li><a href="#aboutme">Sobre Mi</a></li>
+				<li><a href="#skills">Habilidades</a></li>
+				<li><a href="#works">Trabajos</a></li>
+				<li><a href="#contact">Contacto</a></li>
 			</ul>
 		</nav>
 		<div class="logo">
@@ -29,6 +31,7 @@
 </header>
 <section class="color--white" id="aboutme">
 	<h2 class="title">Acerca de Mi</h2>
+	<hr class="line">
 	<article class="flex">
 		<div class="me"></div>
 		<div class="aboutme">
@@ -44,6 +47,7 @@
 </section>
 <section class="color--pink"  id="skills">
 	<h2 class="title">Habilidades</h2>
+	<hr class="line-white">
 	<article class="skill">
 		 <ul class="List">
 			<li class="List-item">
@@ -88,7 +92,7 @@
 		  </li>
 
 			<li class="List-item">
-					<div class="ProgressBar ProgressBar--animate50" data-progress="50">
+					<div class="ProgressBar ProgressBar--animate90" data-progress="90">
 						<svg class="ProgressBar-contentCircle"  viewBox="0 0 200 200">
 			      	<circle transform="rotate(-90, 100, 100)" class="ProgressBar-background" cx="100" cy="100" r="95" />
 			      	<circle transform="rotate(-90, 100, 100)" class="ProgressBar-circle" 
@@ -97,7 +101,7 @@
 						</svg>
 					</div>
 					<div class="List-skill-text">
-						<h3>JQUERY</h3>
+						<h3>AI & PS</h3>
 					</div>
 			  </li>
 			  <li class="List-item">
@@ -122,8 +126,9 @@
 	
 
 </section>
-<section class="color--sky" id="works">
+<section class="color--grey" id="works">
 	<h2 class="title">Algunos Trabajos</h2>
+	<hr class="line">
 	<article class="work">
 		<div class="work__img">
 				<img src="img/work/web_0.jpg" alt="">
@@ -145,11 +150,31 @@
 	
 
 </section>
-<section id="contact"> 
-	<article class="">
-		<h2 class="title">contact</h2>
+<section id="contact" class="text--white"> 
+	<h2 class="title">contacto</h2>
+	<hr class="line-white">
+	<article class="contact">
+		<!-- <h3>Estamos en Contacto</h3>
+		<label for="">Nombre</label><br>
+		<input type="text"><br>
+		<label for="">Correo</label><br>
+		<input type="text"><br>
+		<label for="">Asunto</label><br>
+		<input type="text"><br>
+		<label for="">Mensaje</label><br>
+		<textarea name="" id="" cols="30" rows="10"></textarea>
+ -->
 
 	</article>
+	<footer>
+		<!-- <a href="" class="social">face</a>
+		<a href="" class="social">tw</a>
+		<a href="" class="social">github</a>
+		<a href="" class="social">linkedin</a> -->
+
+		
+	</footer>
+
 	
 
 </section>
