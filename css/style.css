@@ -438,6 +438,9 @@ nav {
 .icon-chevron-thin-down:before {
 	content: "\e601";
 }
+.icon-chevron-thin-up:before {
+	content: "\e602"; 
+}
 
 .icon-linkedin-with-circle:before {
 	content: "\e600";
