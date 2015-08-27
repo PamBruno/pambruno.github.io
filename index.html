@@ -2,15 +2,13 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>PAM | Portfolio </title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-	<script src="js/jquery-2.1.4.js"></script>
-	<script src="js/radial_progress.js"></script>
-
-	<script src="js/header.js"></script>
+	<link rel="stylesheet" href="css/media_queries.css">
+	
 
 </head>
 <body>
@@ -29,6 +27,10 @@
 			<h1>.PAM.</h1>
 			<h2>GRAPHIC DESIGN<br>& FRONTEND</h2>
 		</div>
+
+		<div class="arrow">
+			<a href="#aboutme" class="icon-chevron-thin-down"></a>
+		</div>
 </header>
 <section class="color--white" id="aboutme">
 	<h2 class="title">Acerca de Mi</h2>
@@ -36,17 +38,20 @@
 	<article class="flex">
 		<div class="me"></div>
 		<div class="aboutme">
-			<p>Hola!!</p>
 			<p>Mi nombre es Pam, soy diseñadora gráfica, y hace muy poco tiempo decidí capacitarme en el desarrollo web, área que me pareció fantástica desde el primer día y área en la que quiero desarrollarme constantemente, siendo un sector que nunca deja de avanzar y me lleva a superarme día a día.</p>
 		</div>
 		
 		
 	
 	</article>
+
+	<div class="arrow">
+			<a href="#skills" class="icon-chevron-thin-down"></a>
+		</div>
 	
 
 </section>
-<section class="color--pink"  id="skills">
+<section class="color--pink text--white"  id="skills">
 	<h2 class="title">Habilidades</h2>
 	<hr class="line-white">
 	<article class="skill">
@@ -60,7 +65,7 @@
 		      	<span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
 					</svg>
 				</div>
-				<div class="List-skill-text">
+				<div class="List-item-text">
 						<h3>HTML5</h3>
 					</div>
 		  </li>
@@ -73,7 +78,7 @@
 		      	<span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
 					</svg>
 				</div>
-				<div class="List-skill-text">
+				<div class="List-item-text">
 						<h3>CSS3</h3>
 					</div>
 		  </li>
@@ -87,7 +92,7 @@
 		      	<span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
 					</svg>
 				</div>
-				<div class="List-skill-text">
+				<div class="List-item-text">
 						<h3>RWD</h3>
 					</div>
 		  </li>
@@ -101,7 +106,7 @@
 			      	<span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
 						</svg>
 					</div>
-					<div class="List-skill-text">
+					<div class="List-item-text">
 						<h3>AI & PS</h3>
 					</div>
 			  </li>
@@ -114,23 +119,27 @@
 				      	<span class="ProgressBar-percentage ProgressBar-percentage--count"></span>
 						</svg>
 					</div>
-					<div class="List-skill-text">
+					<div class="List-item-text">
 						<h3>BOOTSTRAP</h3>
 					</div>
 			  </li>
 
 	
 		</ul>
+	
+
 <!-- fin -->
 	
 	</article>
-	
+	<div class="arrow">
+			<a href="#works" class="icon-chevron-thin-down"></a>
+		</div>
 
 </section>
 <section class="color--grey" id="works">
-	<h2 class="title">Algunos Trabajos</h2>
+	<h2 class="title">Trabajos</h2>
 	<hr class="line">
-	<article class="work">
+	<article class="work flex">
 		<div class="work__img">
 				<img src="img/work/web_0.jpg" alt="">
 		</div>
@@ -148,23 +157,37 @@
 		
 		
 	</article>
-	
+	<div class="arrow">
+			<a href="#contact" class="icon-chevron-thin-down"></a>
+		</div>
 
 </section>
 <section id="contact" class="text--white"> 
 	<h2 class="title">contacto</h2>
 	<hr class="line-white">
 	<article class="contact">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ullam, numquam quod ipsa, in odio sequi iste id doloremque consectetur officia fuga reiciendis ab consequatur cum expedita! Quod, quisquam vel?</p>
-		<input type="submit" value="Enviame un mail">
-		
+
+		<p>Estamos en contacto!!</p>
+		<p>Puedes escribirme a mi correo o contactarme a través de las redes sociales.</p>
+		<a href="mailto:pam.bruno.dg@gmail.com" class="button">Mandame un e-mail</a>
+		<div class="social flex">
+			<a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" target="_black"  class="icon-linkedin-with-circle"></a>
+		<!-- <a href="" class="icon-facebook3"></a> -->
+		<a href="https://twitter.com/PammBruno" target="_black" class="icon-twitter3"></a>
+		<a href="https://github.com/PamBruno" target="_black" class="icon-github"></a>
+		</div>
 	</article>
 	<footer>
-		
+		<!-- <p>Cuantas preocupaciones se pierden cuando alguien no decide ser algo, sino alguien.</p>
+		<p>-Coco Chanel</p> -->
 	</footer>
+
 
 </section>
 
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/radial_progress.js"></script>
+<script src="js/header.js"></script>
 <script src="js/wow.min.js"></script>
      <script>
         new WOW().init();
