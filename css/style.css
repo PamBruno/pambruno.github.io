@@ -299,6 +299,7 @@ nav li.active {
 	-webkit-justify-content:space-around;
 	-webkit-align-items: center;
 	padding-bottom: 2em;
+
 }
 .skills {
 	width: 100%;
@@ -308,10 +309,11 @@ nav li.active {
 }
 .work__img {
 
-	width: 21em;
-	height: 14.5em;
+	width: 332px;
+	height: 214px;
 	/*border: 1px solid yellow;*/
 	overflow: hidden;
+	margin: 2px;
 	cursor: pointer;
 	position: relative;
 }
