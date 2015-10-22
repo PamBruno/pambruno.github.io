@@ -26,7 +26,7 @@ body {
 	font-size: 16px;
 	/*font-family:'Conv_Gotham-Book',Sans-Serif;*/
 	font-family: 'Roboto', sans-serif;
-	color: #4E4E4E;
+	color: #10141b;
 	
 }
 
@@ -125,7 +125,7 @@ hr {
 	background: none;
 	border: 1px solid #fff;
 }
-
+.line {border-top: 5px solid #10141b;}
 .line-white {border-top: 5px solid #fff;}
 .line-dark {border-top: 5px solid #fff;}
 
@@ -148,9 +148,19 @@ hr {
 .aboutme {
 	width: 50em;
 	margin: 2em 0;
-	padding: 0 0  0 2em;
+	padding: 0 2em  0 2em;
+
 }
 
+.aboutme p {
+		font-weight: 400;
+		color: #10141b;
+		font-size: 1.1em;
+}
+
+strong {
+	font-weight: 700;
+}
 .me {
 	width: 13em;
 	height:13em;
@@ -388,32 +398,6 @@ nav li.active {
 
 /* contenido en habilidades  */
 
-/*
-.List {
-	display: -webkit-flex;
-	display: -webkit-box;
-	display: -moz-flex;
-	display: -ms-flexbox;
-	display: flex;
-
-	-webkit-flex-flow: row wrap;
-	-webkit-justify-content:space-around;
-	list-style: none;
-	margin: 10px auto;
-	padding: 0px;
-	width: 100%;
-	height: auto;
-	font-weight: 300;
-}
-
-
-.List-item {
-	position: relative;
-	display: block;
-	width: 10em;
-	min-height: 13em;
-}
-*/
 
 .List {
 	display: -webkit-flex;
